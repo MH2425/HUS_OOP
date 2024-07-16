@@ -1,4 +1,4 @@
-package lab01;
+package hus.oop.lab01;
 
 public class HelloWorld {
     public static void main(String[] args) {
