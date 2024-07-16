@@ -1,4 +1,4 @@
-package hus.oop.lab01;
+package hus.oop.lab01.getting_started;
 
 import java.util.Scanner;
 public class CheckOddEven {
