@@ -44,9 +44,9 @@ public class MyComplex {
             sb.append(this.imag).append("i");
         } else {
             if (this.imag < 0)
-                sb.append(this.real).append(" - ").append((-1) * this.imag);
+                sb.append(this.real).append(" - ").append((-1) * this.imag).append("i");
             else
-                sb.append(this.real).append(" + ").append(this.imag);
+                sb.append(this.real).append(" + ").append(this.imag).append("i");
         }
         return sb.toString();
     }
