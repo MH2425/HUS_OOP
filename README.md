@@ -1,1 +1,1 @@
-# This reposity contains some small program related to OOP
+# This reposity contains some small programs related to OOP
