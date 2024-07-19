@@ -15,7 +15,7 @@ public class TestMyComplex {
         complex.setImag(8.0);
         System.out.println(complex);
 
-        another.setValue(8.55, 5.88);
+        another.setValue(8.55, 5.8);
         System.out.println(another);
 
         System.out.println("Does the first one equals to the second? " + complex.equals(another));
