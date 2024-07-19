@@ -1,7 +1,7 @@
 package hus.oop.lab01.lab04.exercises_on_classes.invoice_item;
 
 public class InvoiceItem {
-    private String id;
+    private final String id;
     private String desc;
     private int qty;
     private double unitPrice;

@@ -1,8 +1,8 @@
 package hus.oop.lab01.lab04.exercises_on_classes.account;
 
 public class Account {
-    private String id;
-    private String name;
+    private final String id;
+    private final String name;
     private int balance;
 
     public Account(String id, String name) {
