@@ -1,6 +1,6 @@
-package hus.oop.lab01.lab04.exercises_on_classes.polynomials;
+package hus.oop.lab04.exercises_on_classes.polynomials;
 
-import hus.oop.lab01.lab04.exercises_on_classes.complex_number.MyComplex;
+import hus.oop.lab04.exercises_on_classes.complex_number.MyComplex;
 
 public class MyPolynomial {
     private double[] coeffs;

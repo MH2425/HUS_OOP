@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.polynomials;
+package hus.oop.lab04.exercises_on_classes.polynomials;
 
 public class TestMyPolynomial {
     public static void main(String[] args) {

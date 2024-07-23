@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.rectangle;
+package hus.oop.lab04.exercises_on_classes.rectangle;
 
 public class Rectangle {
     private float length;

@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.account;
+package hus.oop.lab04.exercises_on_classes.account;
 
 public class Account {
     private final String id;

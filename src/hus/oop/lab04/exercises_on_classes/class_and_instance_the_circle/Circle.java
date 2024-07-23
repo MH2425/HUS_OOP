@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.class_and_instance_the_circle;
+package hus.oop.lab04.exercises_on_classes.class_and_instance_the_circle;
 
 public class Circle {
     private double radius;
