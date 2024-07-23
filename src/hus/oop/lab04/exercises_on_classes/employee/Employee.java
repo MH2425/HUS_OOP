@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.employee;
+package hus.oop.lab04.exercises_on_classes.employee;
 
 public class Employee {
     private final int id;

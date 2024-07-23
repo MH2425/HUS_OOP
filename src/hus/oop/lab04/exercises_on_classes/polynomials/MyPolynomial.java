@@ -1,6 +1,6 @@
-package hus.oop.lab01.lab04.exercises_on_classes.polynomials;
+package hus.oop.lab04.exercises_on_classes.polynomials;
 
-import hus.oop.lab01.lab04.exercises_on_classes.complex_number.MyComplex;
+import hus.oop.lab04.exercises_on_classes.complex_number.MyComplex;
 
 public class MyPolynomial {
     private double[] coeffs;
@@ -52,20 +52,25 @@ public class MyPolynomial {
     }
 
     public MyPolynomial add(MyPolynomial right) {
-        int degree = Math.max(this.getDegree(), right.getDegree());
+        int degree = Math.min(this.getDegree(), right.getDegree());
         for (int coeffIdx = 0; coeffIdx <= degree; coeffIdx++) {
             this.coeffs[coeffIdx] += right.coeffs[coeffIdx];
         }
         return this;
     }
 
-//    public MyPolynomial multiply(MyPolynomial right) {
-//        int degree = this.getDegree() + right.getDegree();
-//        this.coeffs = new double[degree];
-//        for (int i = 0; i < this.getDegree(); i++) {
-//            for (int j = i + 1; j < right.getDegree(); j++) {
-//                this.coeffs[i] = this.coeffs[i] * right.coeffs[i];
-//            }
-//        }
-//    }
+    public MyPolynomial multiply(MyPolynomial right) {
+        int degree = this.getDegree() + right.getDegree() + 1;
+        double[] temp = new double[degree];
+        for (int i = 0; i < this.getDegree(); i++) {
+            temp[i] = 0;
+        }
+        for (int i = 0; i <= this.getDegree(); i++) {
+            for (int j = 0; j <= right.getDegree(); j++) {
+                temp[i + j] += this.coeffs[i] * right.coeffs[j];
+            }
+        }
+        this.coeffs = temp;
+        return this;
+    }
 }

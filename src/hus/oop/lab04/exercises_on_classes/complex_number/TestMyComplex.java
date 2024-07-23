@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.complex_number;
+package hus.oop.lab04.exercises_on_classes.complex_number;
 
 public class TestMyComplex {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package hus.oop.lab01.lab04.exercises_on_classes.invoice_item;
+package hus.oop.lab04.exercises_on_classes.invoice_item;
 
 public class InvoiceItem {
     private final String id;
