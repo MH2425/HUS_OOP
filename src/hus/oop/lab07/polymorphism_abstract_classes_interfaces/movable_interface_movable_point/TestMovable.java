@@ -8,14 +8,5 @@ public class TestMovable {
         point.moveDown();
         point.moveLeft();
         point.moveRight();
-
-        System.out.println("---------------------------------------------------------------\n");
-
-        Movable movableCircle = new MovableCircle(1, 1, 1, 1, 2);
-        System.out.println("Movable circle is: " + movableCircle);
-        movableCircle.moveUp();
-        movableCircle.moveDown();
-        movableCircle.moveLeft();
-        movableCircle.moveRight();
     }
 }

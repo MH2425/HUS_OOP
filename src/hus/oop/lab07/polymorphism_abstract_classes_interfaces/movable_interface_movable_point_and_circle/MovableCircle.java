@@ -1,4 +1,4 @@
-package hus.oop.lab07.polymorphism_abstract_classes_interfaces.movable_interface_movable_point;
+package hus.oop.lab07.polymorphism_abstract_classes_interfaces.movable_interface_movable_point_and_circle;
 
 public class MovableCircle implements Movable {
     private int radius;
