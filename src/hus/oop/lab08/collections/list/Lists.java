@@ -1,4 +1,4 @@
-package hus.oop.lab08.list;
+package hus.oop.lab08.collections.list;
 
 import java.util.*;
 public class Lists {
